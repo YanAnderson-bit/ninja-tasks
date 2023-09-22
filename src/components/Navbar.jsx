@@ -2,7 +2,7 @@ import { Box, Button, Flex, HStack, Heading, Spacer, Text } from "@chakra-ui/rea
 
 export default function Navbar(){
     return(
-        <Flex as="nav" p="10px">
+        <Flex as="nav" p="20px" alignItems="center">
         <Heading as="h1" >Ninja Tasks</Heading>
         <Spacer/>
         <HStack spacing="20px">
